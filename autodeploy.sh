@@ -52,7 +52,7 @@ eof
 
 # INSTALL & SET ARMA 3 SERVER
 echo -e "\n\nInstall wget & librairies\n"
-sudo apt install wget lib32gcc1 lib32stdc++6 -y
+sudo apt install wget lib32gcc1 lib32stdc++6 net-tools -y
 echo -e "\n\nCreating STEAM User\n"
 sudo useradd -m -s /bin/bash steam
 sudo -i -u steam
